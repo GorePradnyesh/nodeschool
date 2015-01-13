@@ -1,4 +1,4 @@
-/// <reference path="./node.d.ts" />
+/// <reference path="./../declarations/node.d.ts" />
 
 import http = require('http');
 

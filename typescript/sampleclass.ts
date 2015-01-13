@@ -10,7 +10,12 @@ class Point {
     }
 
     sum(): number{
+        this.print(this.x+ this.y);
         return this.x + this.y;
+    }
+
+    print(num: number){
+        console.log("Number : " + num);
     }
 
     static basePoint = new Point(0, 0);
